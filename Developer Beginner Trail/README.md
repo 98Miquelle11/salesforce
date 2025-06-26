@@ -1,4 +1,4 @@
-# Developer Beginner Trai
+# Developer Beginner Trail
 
 ## Despite those attached in repository, I have already realised following modules:
 * Salesforce Platform Basics,
