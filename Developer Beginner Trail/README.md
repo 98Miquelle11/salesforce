@@ -11,4 +11,3 @@
 * [Flow Builder Basics](https://trailhead.salesforce.com/content/learn/modules/flow-basics?trail_id=force_com_dev_beginner),
 * [Apex Basics & Database](https://trailhead.salesforce.com/content/learn/modules/apex_database?trail_id=force_com_dev_beginner),
 * [Apex Triggers](https://trailhead.salesforce.com/content/learn/modules/apex_triggers?trail_id=force_com_dev_beginner).
-
