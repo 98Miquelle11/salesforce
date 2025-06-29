@@ -46,3 +46,17 @@ The **Salesforce Developer Experience (DX)** is a set of tools that streamlines 
 6. After you authenticate in the browser, the CLI remembers your credentials.
 
 ## Create a Lightning Web Component
+1. In VSC, in the Command Palette, select **SFDX: Create Lightning Web Component**,
+2. Enter some name for the new component,
+3. Press **Enter** to accept the defaulu `force-app/main/default/lwc.`, then press **Enter** again,
+4. Make improvements in HTML and JavaScript files, then save those files.
+
+## Deploy to Your Trailhead Playground
+1. Right-click the `default` folder under `force-app/main`,
+2. Click **SFDX: Deploy Source to Org**,
+3. In the Output tab of the integrated terminal, view the results of your deployment. If the command ran successfully, a Deployed Source message lists the three files that were uploaded to the org.
+
+## Add Component to App in Lightning Experience
+1. In VSC, in the Command Palette, select **SFDX: Open Default Org** (this opens your Trailhead Playground in a separate browser),
+2. Click **Setup**, then in Quick Find, enter `Home`, then seect **Home** in the feature settings section,
+3. Continue manual from the tutorial.
