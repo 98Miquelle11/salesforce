@@ -38,7 +38,28 @@ To develop Lightning web components efficiently, use the following tools and env
   * [Lightning Data Service (LDS)](https://developer.salesforce.com/docs/platform/lwc/guide/data-ui-api): Base Lightning components that work with data are built on LDS. Customize your own components to take advantage of LDS caching, change-tracking, performance, and more,
   * **Lightning Locker**: Lightning web components that belong to one namespace are secure from components in a different namespace through [Security with Lightning Locker](https://developer.salesforce.com/docs/platform/lightning-components-security/guide/locker-intro.html). Lightning Locker also promotes best practices that improve the supportability of your code by only allowing access to supported APIs and eliminating access to nonpublished framework internals.
 
-# [2. Deploy Lightning Web Component Files](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics/push-lightning-web-component-files)
+ # [2. Create Lightning Web Components](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics/create-lightning-web-components)
+
+This chapter covers how to build and structure Lightning Web Components:
+* Components consist of three main files:
+
+  * `.html` — template with markup inside `<template>` tags,
+  * `.js` — JavaScript class extending `LightningElement`, defining properties and logic,
+  * Optional `.css` — for styling the component.
+
+* Key JavaScript features include:
+
+  * **Decorators**: `@api` (public properties), `@track` (reactive state),
+  * **Lifecycle hooks**: e.g., `connectedCallback()` runs when component is inserted into DOM.
+
+* Naming conventions:
+
+  * Component folder and files use **camelCase**,
+  * Component tag names use **kebab-case** (e.g., `<c-my-component>`).
+
+* Supports modern web standards for efficient, reusable UI components.
+
+# [3. Deploy Lightning Web Component Files](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics/push-lightning-web-component-files)
 
 I won't upload full manual, how i did it in [chapter 0](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components), so I will just leave short summary:
 * LWC consists of:
