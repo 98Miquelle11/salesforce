@@ -11,4 +11,4 @@
 (if you folder is not found, click on a up toolbar **File>Open File...** and select file, you're working on.
 
 ### How to find your org email
-**View profile** > **(click your name)** > **User Detail**(upper right corner).
+**View profile** > **(click your name)** > **User Detail** (upper right corner).
