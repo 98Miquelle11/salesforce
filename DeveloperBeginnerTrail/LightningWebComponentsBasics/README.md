@@ -39,3 +39,15 @@ To develop Lightning web components efficiently, use the following tools and env
   * **Lightning Locker**: Lightning web components that belong to one namespace are secure from components in a different namespace through [Security with Lightning Locker](https://developer.salesforce.com/docs/platform/lightning-components-security/guide/locker-intro.html). Lightning Locker also promotes best practices that improve the supportability of your code by only allowing access to supported APIs and eliminating access to nonpublished framework internals.
 
 # [2. Deploy Lightning Web Component Files](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics/push-lightning-web-component-files)
+
+I won't upload full manual, how i did it in [chapter 0](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components), so I will just leave short summary:
+* LWC consists of:
+
+  * `.html` template markup,
+  * `.js` component logic,
+  * `.js-meta.xml` visibility/config for Lightning pages.
+
+* Set `<isExposed>true</isExposed>` and define targets in the XML (`Home`, `Record`, `App` pages),
+* Use `sf project deploy start` or `sfdx force:source:push` to deploy,
+* Add your component to a Lightning page via **App Builder**,
+* Save and activate the page to see your component live.
