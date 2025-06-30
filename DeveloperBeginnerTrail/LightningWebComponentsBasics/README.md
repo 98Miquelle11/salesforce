@@ -49,7 +49,7 @@ This chapter covers how to build and structure Lightning Web Components:
 
 * Key JavaScript features include:
 
-  * **Decorators**: `@api` (public properties), `@track` (reactive state),
+  * **Decorators**: `@api` (public properties), `@track` (reactive state), `@wire` (reactive Salesforce data or service binding),
   * **Lifecycle hooks**: e.g., `connectedCallback()` runs when component is inserted into DOM.
 
 * Naming conventions:
