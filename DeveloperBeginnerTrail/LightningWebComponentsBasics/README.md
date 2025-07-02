@@ -92,7 +92,9 @@ Example: `this.dispatchEvent(new CustomEvent('mycustomevent'));`
 
 Example with data:
 `this.dispatchEvent(new CustomEvent('mycustomevent', {`
+
 `  detail: { value: this.inputValue }`
+
 `}));`
 
 ### Listening to Custom Events
