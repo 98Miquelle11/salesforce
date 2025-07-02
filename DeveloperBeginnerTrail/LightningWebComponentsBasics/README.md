@@ -91,6 +91,7 @@ Use `CustomEvent` to send data from child to parent components.
 Example: `this.dispatchEvent(new CustomEvent('mycustomevent'));`
 
 Example with data:
+
 `this.dispatchEvent(new CustomEvent('mycustomevent', {`
 
 `  detail: { value: this.inputValue }`
