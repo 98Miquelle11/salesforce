@@ -80,5 +80,31 @@ The images we are using are hosted on an Amazon AWS site. In order to allow the 
 
 # [4. Handle Events in Lightning Web Components](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics/handle-events-in-lightning-web-components)
 
-* Property names in JavaScript are in camel case `itemName` while HTML attribute names are in kebab case (dash-separated) `item-name` to match HTML standards,
+### Event Handling in LWC
+Components respond to user interactions using **event listeners** in their templates.
 
+Example: `<lightning-button label="Click Me" onclick={handleClick}></lightning-button>`
+
+### Creating and Dispatching Custom Events
+Use `CustomEvent` to send data from child to parent components.
+
+Example: `this.dispatchEvent(new CustomEvent('mycustomevent'));`
+
+Example with data:
+
+`this.dispatchEvent(new CustomEvent('mycustomevent', {`
+
+`  detail: { value: this.inputValue }`
+
+`}));`
+
+### Listening to Custom Events
+Parent components listen to child events by specifying event handlers in the template:
+
+`<c-child-component onmycustomevent={handleCustomEvent}></c-child-component>`
+
+### Best Practices
+* Property names in JavaScript are in camel case `itemName` while HTML attribute names are in kebab case (dash-separated) `item-name` to match HTML standards,
+* Use custom events to pass data from child to parent,
+* Handle events declaratively in the parent component’s template,
+* Keep components decoupled and reusable by using event-based communication.
