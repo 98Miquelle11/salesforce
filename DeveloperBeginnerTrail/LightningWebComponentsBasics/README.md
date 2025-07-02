@@ -82,11 +82,14 @@ The images we are using are hosted on an Amazon AWS site. In order to allow the 
 
 ### Event Handling in LWC
 Components respond to user interactions using **event listeners** in their templates.
+
 Example: `<lightning-button label="Click Me" onclick={handleClick}></lightning-button>`
 
 ### Creating and Dispatching Custom Events
 Use `CustomEvent` to send data from child to parent components.
+
 Example: `this.dispatchEvent(new CustomEvent('mycustomevent'));`
+
 Example with data:
 `this.dispatchEvent(new CustomEvent('mycustomevent', {`
 `  detail: { value: this.inputValue }`
@@ -94,6 +97,7 @@ Example with data:
 
 ### Listening to Custom Events
 Parent components listen to child events by specifying event handlers in the template:
+
 `<c-child-component onmycustomevent={handleCustomEvent}></c-child-component>`
 
 ### Best Practices
