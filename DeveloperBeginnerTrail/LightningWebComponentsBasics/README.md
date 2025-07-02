@@ -61,7 +61,6 @@ This chapter covers how to build and structure Lightning Web Components:
 
 # [3. Deploy Lightning Web Component Files](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics/push-lightning-web-component-files)
 
-I won't upload full manual, how i did it in [chapter 0](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components), so I will just leave short summary:
 * LWC consists of:
 
   * `.html` template markup,
@@ -72,3 +71,14 @@ I won't upload full manual, how i did it in [chapter 0](https://trailhead.salesf
 * Use `sf project deploy start` or `sfdx force:source:push` to deploy,
 * Add your component to a Lightning page via **App Builder**,
 * Save and activate the page to see your component live.
+
+### Trusted URLs
+The images we are using are hosted on an Amazon AWS site. In order to allow the images to display in our app we need to add the URL to the Trusted URLs list.
+1. In Setup, enter `trusted urls` in the Quick Find box and then select **Trusted URLs**,
+2. Click **New Trusted URL**,
+3. Enter **API Name**, **URL**, **Description**, leave **Active**, make sure **img-src (images)** is selected, click **Save**.
+
+# [4. Handle Events in Lightning Web Components](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics/handle-events-in-lightning-web-components)
+
+* Property names in JavaScript are in camel case `itemName` while HTML attribute names are in kebab case (dash-separated) `item-name` to match HTML standards,
+
