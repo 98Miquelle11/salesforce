@@ -79,3 +79,6 @@ The images we are using are hosted on an Amazon AWS site. In order to allow the 
 3. Enter **API Name**, **URL**, **Description**, leave **Active**, make sure **img-src (images)** is selected, click **Save**.
 
 # [4. Handle Events in Lightning Web Components](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics/handle-events-in-lightning-web-components)
+
+* Property names in JavaScript are in camel case `itemName` while HTML attribute names are in kebab case (dash-separated) `item-name` to match HTML standards,
+
