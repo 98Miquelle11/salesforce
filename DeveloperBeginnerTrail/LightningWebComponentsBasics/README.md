@@ -108,3 +108,24 @@ Parent components listen to child events by specifying event handlers in the tem
 * Use custom events to pass data from child to parent,
 * Handle events declaratively in the parent component’s template,
 * Keep components decoupled and reusable by using event-based communication.
+
+# [5. Add Styles and Data to a Lightning Web Component](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics/add-styles-and-data-to-a-lightning-web-component)
+
+###  Property Binding
+Use `{}` to bind JavaScript properties to HTML in the template.
+.js: `greeting = 'Hello, World!';`
+.html: `<p>{greeting}</p>`
+
+### The Wire Service Brings Data to Your App
+The wire service is part of our platform and delivers a stream of data. The `@wire` decorator implements the wire service for your app. Here is the syntax:
+
+`import { adapterId } from 'adapter-module';`
+
+`@wire(adapterId, adapterConfig) propertyOrFunction;`
+
+* `adapterId` (Identifier) — the identifier of the wire adapter,
+* `adapter-module` (String) — The identifier of the module that contains the wire adapter function,
+* `adapterConfig` (Object) — A configuration object specific to the wire adapter,
+* `propertyOrFunction` — A private property or function that receives the stream of data from the wire service. If a property is decorated with `@wire`, the results are returned to the property's data property or error property. If a function is decorated with `@wire`, the results are returned in an object with a data property and an error property.
+
+More explanations (with code) are [here](https://github.com/98Miquelle11/Salesforce/blob/main/DeveloperBeginnerTrail/LightningWebComponentsBasics/bikeCard/force-app/main/default/lwc/selector/selector.js).
