@@ -7,3 +7,28 @@ This README summarizes  units from the [Multirecord Elements and Transforms in F
 2. Click **Install a package** tab,
 3. Insert Package ID, click **Install**.
 
+### How to create a record-triggered flow
+1. Click **Setup**,
+2. Select object from **Object Manager** tab,
+3. Click **Flow Triggers** > **New Flow**.
+
+### Otherwise (how to find Flow Builder)
+1. **Navigate to Setup**: Click on the gear icon in the top right corner and select "Setup",
+2. **Search for Flow**: In the Quick Find box, type "Flows",
+3. **Open Flow Builder**: Click on "Flows" under the Process Automation section. From there, you can create a new flow by clicking the "New Flow" button.
+(Remember you may need to create some resources like variables etc. You can do this clicking **New Resource** on a left).
+
+### Updating Multiple Related Records
+In a record-triggered flow (e.g., when an Opportunity closes lost), use a single **Update Records** element—configured via *Update Related Records*—to automatically update all related records, such as open Cases linked to the same Account.
+Key points:
+* Apply filters (e.g., only update Cases where Status ≠ Closed),
+* Avoid per-record loops—this single-action approach is efficient and avoids hitting governor limits.
+
+### Fetching Multiple Records with Collection Variables
+A Get Records element can retrieve multiple records (e.g., all onboarding steps for a Project) and store them in a **record collection variable**.
+* Collection variables hold multiple records of the same object type,
+* Choosing “All records” + “Automatically store all fields” in Get Records results in a full collection.
+
+# [2. Transform Multiple Records](https://trailhead.salesforce.com/content/learn/modules/multirecord-elements-and-transforms-in-flows/transform-multiple-records?trail_id=build-flows-with-flow-builder)
+
+
