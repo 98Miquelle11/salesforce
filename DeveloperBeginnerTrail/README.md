@@ -1,6 +1,6 @@
 # [Developer Beginner Trail](https://trailhead.salesforce.com/content/learn/trails/force_com_dev_beginner)
 
-## Despite those attached in repository, I have already realised following modules:
+### Despite those attached in repository, I have already realised following modules:
 * [Salesforce Platform Basics](https://trailhead.salesforce.com/content/learn/modules/starting_force_com?trail_id=force_com_dev_beginner),
 * [Platform Development Basics](https://trailhead.salesforce.com/content/learn/modules/platform-development-basics?trail_id=force_com_dev_beginner),
 * [Get Started with Salesforce Development](https://trailhead.salesforce.com/content/learn/projects/get-started-with-salesforce-development?trail_id=force_com_dev_beginner),
