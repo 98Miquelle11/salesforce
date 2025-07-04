@@ -85,6 +85,7 @@ The **In** operator in Update Records only supports collections of simple values
     `<name>Flow</name>`
     
 `</types>`
+
 3. You may not have permission to retrieve all flows, but only you edited or created. Then instead of * between `<members>` and `</members>` you need to write API's name of Flow and repeat. For example:
 
 `<members>Win_Multiple_Opps_Formulas</members>`
