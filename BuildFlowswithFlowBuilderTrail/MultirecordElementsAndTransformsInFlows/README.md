@@ -95,6 +95,7 @@ The **In** operator in Update Records only supports collections of simple values
 4. Right-click the `package.xml` file itself in the **Explorer sidebar** and choose 
 
 `SFDX: Retrieve Source in Manifest from Org`
+
 (you can also do it manually in terminal:
 
 `sf project retrieve start --manifest manifest/package.xml --target-org NameOfMyOrg`.
