@@ -32,5 +32,14 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>Close_Account_s_Cases_from_Retention_Opp_Lost</members>
+        <members>Update_Cases_When_Contact_Becomes_Inactive</members>
+        <members>Choose_Steps_to_Update_with_Formula</members>
+        <members>Win_Multiple_Opps_Formulas</members>
+        <members>Choose_Steps_to_Update</members>
+        <members>Win_Multiple_Opps_Text_Collection</members>
+        <name>Flow</name>
+    </types>
     <version>64.0</version>
 </Package>
