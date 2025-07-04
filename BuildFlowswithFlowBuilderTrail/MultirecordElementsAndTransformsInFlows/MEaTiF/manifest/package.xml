@@ -39,6 +39,7 @@
         <members>Win_Multiple_Opps_Formulas</members>
         <members>Choose_Steps_to_Update</members>
         <members>Win_Multiple_Opps_Text_Collection</members>
+        <members>Create_Top_10_Campaign_Members</members>
         <name>Flow</name>
     </types>
     <version>64.0</version>
