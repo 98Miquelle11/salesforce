@@ -99,3 +99,27 @@ The **In** operator in Update Records only supports collections of simple values
 (you can also do it manually in terminal:
 
 `sf project retrieve start --manifest manifest/package.xml --target-org NameOfMyOrg`.
+
+# [4. Organize Data in a Collection Variable](https://trailhead.salesforce.com/content/learn/modules/multirecord-elements-and-transforms-in-flows/organize-data-in-a-collection-variable?trail_id=build-flows-with-flow-builder)
+
+### Filtering a Collection
+Use the **Collection Filter** element to create a new collection containing only items that match specified criteria. The original collection remains unchanged, allowing you to use both filtered and full sets separately.
+
+**Example**: From a list of emails, filter out those from a competitor’s domain.
+
+### Sorting & Truncating a Collection
+**Collection Sort** lets you reorder a collection based on a chosen field (e.g., sort Opportunities by Amount descending). Optionally, you can limit the number of items (e.g., keep only the top 10). Unlike filtering, this modifies the same collection, not a copy.
+
+### When to use Filter/Sort vs. Get Records
+* Use **Get Records** filters when criteria are known upfront—this is more efficient,
+* Use **Collection Filter/Sort** when criteria depend on runtime logic (e.g., decisions or screen inputs).
+
+### Real-World Example
+1. **Get Campaign & Opportunities** records (exclude Closed Lost),
+2. Use a **Decision** to route by campaign type (e.g., Generators),
+3. In one branch, apply **Collection Filter** to select opportunities where `Main_Product_Category = GC`,
+4. Then use **Collection Sort** to sort by `Amount` and **truncate** to top 10,
+5. Apply **Transform** to convert these filtered & sorted opps into a new Campaign Member collection,
+6. Use **Create Records** to insert new campaign members.
+
+Best practice: avoid loops; use **Transform** for performance, then **Create Records** in bulk.
