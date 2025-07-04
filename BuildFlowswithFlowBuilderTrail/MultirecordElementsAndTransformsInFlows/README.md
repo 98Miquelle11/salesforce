@@ -77,12 +77,23 @@ The **In** operator in Update Records only supports collections of simple values
 
 ### How to retrieve source in Manifest from Org (based on Flows)
 1. Include `Flow` metadata in `manifest/package.xml`. Adjust inside a `package.xml` following data:
+
 `<types>`
+
     `<members>*</members>`
+    
     `<name>Flow</name>`
+    
 `</types>`
 3. You may not have permission to retrieve all flows, but only you edited or created. Then instead of * between `<members>` and `</members>` you need to write API's name of Flow and repeat. For example:
+
 `<members>Win_Multiple_Opps_Formulas</members>`
+
 `<members>Choose_Steps_to_Update</members>`
-4. Right-click the `package.xml` file itself in the **Explorer sidebar** and choose `SFDX: Retrieve Source in Manifest from Org`
-(you can also do it manually in terminal: `sf project retrieve start --manifest manifest/package.xml --target-org NameOfMyOrg`.
+
+4. Right-click the `package.xml` file itself in the **Explorer sidebar** and choose 
+
+`SFDX: Retrieve Source in Manifest from Org`
+(you can also do it manually in terminal:
+
+`sf project retrieve start --manifest manifest/package.xml --target-org NameOfMyOrg`.
