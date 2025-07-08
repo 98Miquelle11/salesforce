@@ -43,13 +43,11 @@ This module builds on the Event Monitoring basics by showing how to access and q
 ### How to Download Logs
 1. **Browser (ELF Browser in Setup)**: Select date/time, choose an event type, and click **Download as CSV**. Files include hourly logs for Event Monitoring orgs or daily for standard ones. CSV fields like `USER_ID` and `URI` help track critical events — e.g., identifying who exported a report and which report was used,
 2. **Automated via cURL**:
-
   * Use Salesforce credentials (via OAuth),
   * Run REST API query to fetch logs,
   * Parse and save CSV files, enabling scheduled downloads and custom formatting.
 
 3. **Programmatic via Python**:
-
   * Ideal for Windows users,
   * Leverages Salesforce REST API,
   * Scripts can be adapted and scheduled for automated ingestion.
