@@ -47,7 +47,7 @@ Effective security also means tracking it:
   * Restricted login IPs for specific profiles (e.g., System Administrator),
   * Tested access denial when logging in from an untrusted IP.
 
-* **Login IP Ranges**
+* **Login Hours**
 
   * Defined login hours for a profile to restrict access outside business hours,
   * Verified that access was blocked outside permitted time.
