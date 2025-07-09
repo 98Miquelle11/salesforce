@@ -83,7 +83,7 @@ Profiles are best used for defining broad, stable attributes: default apps, logi
 * Assign to users (or set expiration dates for temporary access).
 
 ### Reviewing Access
-Use Salesforce UI tools to audit permissions:
+Use Developer Org tools to audit permissions:
 * **Object Manager → Object Access**: shows which profiles, perm sets/groups grant access to an object,
 * **User Detail → View Summary**: shows all permissions a user has,
 * **Permission Set / Group Summary**: shows permissions bundled within each set or group.
@@ -116,7 +116,7 @@ Use Salesforce UI tools to audit permissions:
 * Best applied using **Permission Sets** (and groups), mirroring object-level practices,
 * Example workflow:
 
-  1. Create a Permission Set (e.g., `Update Candidate Records`).
+  1. Create a Permission Set (e.g., `Update Candidate Records`),
   2. Enable object-level **Read** permission,
   3. Grant **Read/Edit** access to specific fields (e.g., checkboxes), while hiding extra sensitive ones like SSNs.
 
@@ -126,3 +126,26 @@ Use Salesforce UI tools to audit permissions:
 
 # [5. Control Access to Records](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_records?trail_id=force_com_admin_intermediate)
 
+### Record‑Level Security: Four Tiers
+1. **Organization‑Wide Defaults (OWD)** – Baseline access for users who don’t own records,
+2. **Role Hierarchy** – Ensures managers inherit access of their subordinates,
+3. **Sharing Rules** – Automatically grant broader access based on criteria or group,
+4. **Manual Sharing** – Record owners or designated users can share individual records.
+
+(These mechanisms layer on top of each other. Start with the strictest OWD, then selectively open access where needed).
+
+### Organization‑Wide Defaults (OWDs)
+* Define the minimum access level for each object (e.g., Private, Public Read Only, Public Read/Write, Controlled by Parent),
+* Always start by asking:
+  1. Who is the most restricted user?
+  2. Should this user see or edit every record?
+* OWDs apply separately to standard vs. external users and can’t grant permissions beyond object-level security.
+
+### Hands‑On: Setting OWDs in the Developer Org
+1. Navigate to **Setup → Sharing Settings**,
+2. Click **Edit** under Organization‑Wide Defaults,
+3. Define internal & external access per object (e.g., Private, Public Read Only),
+4. Optionally disable **Grant Access Using Hierarchies** for custom objects,
+5. Save — changes trigger automatic sharing recalculation.
+
+# [6. Create a Role Hierarchy](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_roles?trail_id=force_com_admin_intermediate)
