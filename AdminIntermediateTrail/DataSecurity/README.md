@@ -131,6 +131,7 @@ Use Developer Org tools to audit permissions:
 2. **Role Hierarchy** – Ensures managers inherit access of their subordinates,
 3. **Sharing Rules** – Automatically grant broader access based on criteria or group,
 4. **Manual Sharing** – Record owners or designated users can share individual records.
+
 (These mechanisms layer on top of each other. Start with the strictest OWD, then selectively open access where needed).
 
 ### Organization‑Wide Defaults (OWDs)
