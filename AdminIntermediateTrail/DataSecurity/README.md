@@ -20,9 +20,9 @@ Building a secure model starts with understanding your data and your users’ ne
 ### Audit and Monitor Access
 Effective security also means tracking it:
 * **Record modification fields** automatically track who created or edited data,
-* **Login History** shows all successful and failed access attempts,
-* **Field History Tracking** logs changes to sensitive fields,
-* **Setup Audit Trail** records configuration changes,
+* [Login History](https://help.salesforce.com/s/articleView?language=en_US&id=sf.users_login_history.htm) shows all successful and failed access attempts,
+* [Field History Tracking](https://help.salesforce.com/s/articleView?language=en_US&id=sf.tracking_field_history.htm) logs changes to sensitive fields,
+* [Setup Audit Trail](https://help.salesforce.com/s/articleView?language=en_US&id=sf.admin_monitorsetup.htm) records configuration changes,
 * **Event Monitoring** provides detailed usage data for compliance and threat detection.
 
 # [2. Control Access to the Org](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_org)
@@ -59,3 +59,47 @@ Effective security also means tracking it:
 
 # [3. Control Access to Objects](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_objects)
 
+### Profiles vs Permission Sets vs Permission Set Groups
+* **Profiles** define a user’s baseline access: apps, record types, layouts, and object permissions. Each user gets exactly one,
+* **Permission Sets** add additional permissions (object, field, app access). Users can have multiple sets,
+* **Permission Set Groups** bundle multiple permission sets into a cohesive “persona” (e.g., Sales Rep). Users can have multiple groups, and sets can be reused across groups.
+
+*Best practice*: Use a minimal-access profile (e.g., *Minimum Access – Salesforce*) and layer additional permissions via permission sets/groups).
+
+### Object Permissions
+You can configure Create, Read, Edit, and Delete rights per object. The module illustrates access needs for different roles in a *Recruiting App*:
+* **Recruiters**: full CRUD on Positions, Candidates, Applications, Reviews,
+* **Hiring Managers**: limited access (e.g., no edit on lookups or sensitive fields),
+* **Interviewers & Standard Employees**: view access with further restrictions (e.g., masking SSNs and bonus fields).
+
+### Configuring Profiles
+Profiles are best used for defining broad, stable attributes: default apps, login restrictions, and baseline permissions.
+* Clone standard profiles (like Minimum Access), modify as needed, then assign to users,
+* Assign additional rights via permission sets/groups rather than bloating the profile.
+
+### Permission Sets & Groups
+* Create targeted permission sets (e.g., *Access and Manage Reviews* for object-level review access),
+* Group them into role-aligned sets (e.g., *Recruiters, Hiring Managers, Interviewers*),
+* Assign to users (or set expiration dates for temporary access).
+
+### Reviewing Access
+Use Salesforce UI tools to audit permissions:
+* **Object Manager → Object Access**: shows which profiles, perm sets/groups grant access to an object,
+* **User Detail → View Summary**: shows all permissions a user has,
+* **Permission Set / Group Summary**: shows permissions bundled within each set or group.
+
+### Example Workflow in Recruiting App
+1. **Profile Setup**
+   * Start with *Minimum Access* profile,
+   * Clone and tweak for job-function needs (if needed).
+2. **Permission Sets Creation**: e.g., *Access and Manage Reviews* → Grants R/E/CU on the Review object.
+3. **Permission Set Groups**: Create groups like *Recruiters, Hiring Managers, Interviewers*, adding appropriate sets to each.
+4. **Assign Permissions**: Temporarily assign groups to users (e.g., interviewers for the duration they help).
+5. **Audit and Monitor**: Ensure permissions align with role requirements using Object and User access summaries.
+
+### Why It Matters
+* **Modularity & Scalability**: Avoids hundreds of custom profiles—reuse permission sets as building blocks,
+* **Principle of Least Privilege**: Start with minimal access and build up only what’s needed,
+* **Auditability**: Built-in summaries help troubleshoot and document security.
+
+# [4. Control Access to Fields](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_fields?trail_id=force_com_admin_intermediate)
