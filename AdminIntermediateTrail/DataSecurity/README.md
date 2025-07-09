@@ -26,3 +26,36 @@ Effective security also means tracking it:
 * **Event Monitoring** provides detailed usage data for compliance and threat detection.
 
 # [2. Control Access to the Org](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_org)
+
+### Manual Configurations Completed:
+
+* **User Management**
+
+  * Created a new user with specific role and profile,
+  * Verified login behavior for the new user,
+  * Deactivated the user as part of the exercise.
+
+* **Password Policies**
+
+  * Enforced password complexity (minimum 8 characters, mixed character types),
+  * Enabled password expiration and reuse restrictions,
+  * Configured account lockout after multiple failed login attempts.
+
+* **Login IP Ranges**
+
+  * Set trusted IP ranges under **Network Access**,
+  * Restricted login IPs for specific profiles (e.g., System Administrator),
+  * Tested access denial when logging in from an untrusted IP.
+
+* **Login Hours**
+
+  * Defined login hours for a profile to restrict access outside business hours,
+  * Verified that access was blocked outside permitted time.
+
+### Important
+* These configurations are **not retrievable** via metadata API or `package.xml`,
+* They are **org-level settings and data**, not source-tracked in Salesforce DX,
+* For tracking and reproducibility, this summary serves as documentation of manual steps completed in the Dev Org.
+
+# [3. Control Access to Objects](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_objects)
+
