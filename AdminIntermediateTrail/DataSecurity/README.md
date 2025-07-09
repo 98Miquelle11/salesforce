@@ -103,3 +103,26 @@ Use Salesforce UI tools to audit permissions:
 * **Auditability**: Built-in summaries help troubleshoot and document security.
 
 # [4. Control Access to Fields](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_fields?trail_id=force_com_admin_intermediate)
+
+### Why Use Field-Level Security?
+* Field-level security adds a stronger layer of protection than page layouts, safeguarding sensitive data across Salesforce (e.g., list views, searches, reports, APIs),
+* Use cases:
+
+  * Hide salary‐related bonus fields from certain roles,
+  * Mask personal data like SSNs or private notes from unauthorized users.
+
+### Configuring Permissions
+* Field permissions govern whether users can **read** or **edit** a field,
+* Best applied using **Permission Sets** (and groups), mirroring object-level practices,
+* Example workflow:
+
+  1. Create a Permission Set (e.g., `Update Candidate Records`).
+  2. Enable object-level **Read** permission,
+  3. Grant **Read/Edit** access to specific fields (e.g., checkboxes), while hiding extra sensitive ones like SSNs.
+
+### Bulk Field Configuration
+* Use *Field Accessibility* settings or enable *Field-Level Security for Permission Sets during field creation* to set permissions across multiple permission sets at once,
+* This saves time when adding new fields or updating access controls.
+
+# [5. Control Access to Records](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_records?trail_id=force_com_admin_intermediate)
+
