@@ -25,6 +25,15 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
+        <members>Manage_Positions</members>
+        <members>Access_and_Manage_Reviews</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Recruiters</members>
+        <name>PermissionSetGroup</name>
+    </types>
+    <types>
         <members>*</members>
         <name>LightningComponentBundle</name>
     </types>
