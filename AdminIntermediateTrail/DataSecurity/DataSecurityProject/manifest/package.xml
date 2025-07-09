@@ -32,6 +32,10 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>Referral__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>Recruiters</members>
         <name>PermissionSetGroup</name>
     </types>
