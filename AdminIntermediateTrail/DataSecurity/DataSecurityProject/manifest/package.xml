@@ -27,6 +27,8 @@
     <types>
         <members>Manage_Positions</members>
         <members>Access_and_Manage_Reviews</members>
+        <members>Update_Candidate_Records</members>
+        <members>Manage_Job_Applications</members>
         <name>PermissionSet</name>
     </types>
     <types>
