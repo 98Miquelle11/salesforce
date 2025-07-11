@@ -44,6 +44,12 @@
         <name>LightningComponentBundle</name>
     </types>
     <types>
+        <members>Onboarding_Manager</members>
+        <members>Recruiting_Manager</members>
+        <members>Recruiter</members>
+        <name>Role</name>
+    </types>
+    <types>
         <members>*</members>
         <name>StaticResource</name>
     </types>
