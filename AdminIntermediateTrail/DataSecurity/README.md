@@ -171,4 +171,18 @@ Users inherit access to subordinate-owned records (default behavior unless disab
 * Reduces manual sharing, prevents redundant configuration,
 * Ensures consistent, secure visibility across user roles.
 
-# [6. Define Sharing Rules](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_sharing_rules?trail_id=force_com_admin_intermediate)
+# [7. Define Sharing Rules](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_sharing_rules?trail_id=force_com_admin_intermediate)
+
+### Overview
+Sharing rules provide **automatic exceptions** to org-wide default (OWD) settings — such as Private or Public Read Only — by opening access on selected records without weakening overall security. They can grant more access but **never more restrictive** than OWD. Each rule defines:
+1. **Which records** to share (owner or field criteria),
+2. **With whom** (roles, territories, public groups),
+3. **What access** level (Read‑Only or Read/Write).
+
+### Public Groups
+Admins can bundle users, roles (and their subordinates), territories, or other groups into **public groups**. These simplify sharing rules and improve clarity and maintainability.
+
+### Sample: Recruiting App Use Case
+* **Recruiters** need R/W access to all Positions, Candidates, Applications, Reviews → share with the "Recruiter" role,
+* **Hiring Managers** need R/W on Applications and Reviews → share with their role hierarchy,
+* Interviewers access is unpredictable → best handled via manual sharing, not rules.
