@@ -149,3 +149,26 @@ Use Developer Org tools to audit permissions:
 5. Save — changes trigger automatic sharing recalculation.
 
 # [6. Create a Role Hierarchy](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_roles?trail_id=force_com_admin_intermediate)
+
+### Role Hierarchy Basics
+* Roles define layers of data access; higher roles can access data owned by users below them,
+* A hierarchy does not have to mirror company org charts—it should reflect record access needs.
+
+### Automatic Access via Hierarchy
+Users inherit access to subordinate-owned records (default behavior unless disabled for custom objects).
+
+### Configuring the Hierarchy
+* Within **Setup → Roles**, use **Tree View** for easy visualization,
+* Add top-level roles (e.g., CEO), then create child roles under them,
+* Assign users to their respective roles once roles are created.
+
+### Recruiting App Example
+* **Example hierarchy**: CEO → VP, HR → Recruiting Manager → Recruiter,
+* Each level gains access to all records owned by levels beneath it, simplifying business record access.
+
+### Why It Matters
+* Centralizes and simplifies access permissions,
+* Reduces manual sharing, prevents redundant configuration,
+* Ensures consistent, secure visibility across user roles.
+
+# [6. Define Sharing Rules](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_sharing_rules?trail_id=force_com_admin_intermediate)
