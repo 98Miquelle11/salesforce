@@ -33,6 +33,7 @@
     </types>
     <types>
         <members>Referral__c</members>
+        <members>Program__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -48,6 +49,11 @@
         <members>Recruiting_Manager</members>
         <members>Recruiter</members>
         <name>Role</name>
+    </types>
+    <types>
+        <members>Account__c</members>
+        <members>Program__c</members>
+        <name>SharingRules</name>
     </types>
     <types>
         <members>*</members>
