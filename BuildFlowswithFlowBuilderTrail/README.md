@@ -1,4 +1,4 @@
-# [Build Flows with Flow Builder Trail](https://trailhead.salesforce.com/content/learn/trails/build-flows-with-flow-builder)
+# [Build Flows with Flow Builder trail](https://trailhead.salesforce.com/content/learn/trails/build-flows-with-flow-builder)
 
 ### Despite those attached in repository, I have already realised following modules:
 * [Flow Builder Basics](https://trailhead.salesforce.com/content/learn/modules/flow-basics?trail_id=build-flows-with-flow-builder),
