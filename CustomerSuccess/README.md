@@ -1,1 +1,1 @@
-## Mixtrail in the area of Customer Success.
+## Mixtrail in an area of Customer Success.
