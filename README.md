@@ -1,1 +1,1 @@
-### [My Trailhead](https://www.salesforce.com/trailblazer/michalkuropieska) achievements.
+### My [Trailhead](https://www.salesforce.com/trailblazer/michalkuropieska) achievements.
