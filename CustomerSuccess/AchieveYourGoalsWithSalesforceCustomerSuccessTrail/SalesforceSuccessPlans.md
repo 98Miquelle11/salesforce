@@ -107,3 +107,8 @@ Check out the [Premier, Premier Plus, and Signature Success: Developer Support S
 
 # [3. Explore the Signature Success Plan](https://trailhead.salesforce.com/content/learn/modules/premier-success-plans/learn-about-success-managers-accelerators-and-admin-assist?trail_id=achieve-your-goals-with-success-cloud)
   
+### Learning Objectives
+After completing this unit, you’ll be able to:
+* List the key components of the Signature Success Plan,
+* Identify key objectives of the Signature Success Plan,
+* Identify key challenges that the Signature Success Plan solves.
