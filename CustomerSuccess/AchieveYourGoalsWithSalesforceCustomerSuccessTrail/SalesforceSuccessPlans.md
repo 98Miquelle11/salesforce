@@ -113,6 +113,8 @@ After completing this unit, you’ll be able to:
 * Identify key objectives of the Signature Success Plan,
 * Identify key challenges that the Signature Success Plan solves.
 
+### Key components of the Signature Success Plan
+
 * **Proactive, personalized partnership**: Signature includes everything in Premier and Standard, but as a Signature customer, you also get a proactive, personalized partnership with Salesforce to:
 
   * **Enhance your strategy to confidently drive adoption and AI innovation** - with your Customer Success Manager (CSM) based on recommendations from your Customer Success Score. Enhance your team's ability to use Agentforce effectively with included instructor-led training and industry best practices from Salesforce experts,
