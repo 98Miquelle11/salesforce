@@ -113,7 +113,7 @@ After completing this unit, you’ll be able to:
 * Identify key objectives of the Signature Success Plan,
 * Identify key challenges that the Signature Success Plan solves.
 
-* ** Proactive, personalized partnership**: Signature includes everything in Premier and Standard, but as a Signature customer, you also get a proactive, personalized partnership with Salesforce to:
+* **Proactive, personalized partnership**: Signature includes everything in Premier and Standard, but as a Signature customer, you also get a proactive, personalized partnership with Salesforce to:
 
   * **Enhance your strategy to confidently drive adoption and AI innovation** - with your Customer Success Manager (CSM) based on recommendations from your Customer Success Score. Enhance your team's ability to use Agentforce effectively with included instructor-led training and industry best practices from Salesforce experts,
   * **Design an effective and scalable platform backed by data and insights** - engage in Technical Health Reviews to develop Agentforce solutions that deliver fast outcomes and evolve with your business. Improve speed and stability with Specialized Architect reviews as you scale your business with AI agents. Continually discover new ways to improve Salesforce efficiency with proactive guidance from your CSM,
