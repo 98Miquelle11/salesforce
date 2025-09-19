@@ -112,3 +112,58 @@ After completing this unit, you’ll be able to:
 * List the key components of the Signature Success Plan,
 * Identify key objectives of the Signature Success Plan,
 * Identify key challenges that the Signature Success Plan solves.
+
+* ** Proactive, personalized partnership**: Signature includes everything in Premier and Standard, but as a Signature customer, you also get a proactive, personalized partnership with Salesforce to:
+
+  * **Enhance your strategy to confidently drive adoption and AI innovation** - with your Customer Success Manager (CSM) based on recommendations from your Customer Success Score. Enhance your team's ability to use Agentforce effectively with included instructor-led training and industry best practices from Salesforce experts,
+  * **Design an effective and scalable platform backed by data and insights** - engage in Technical Health Reviews to develop Agentforce solutions that deliver fast outcomes and evolve with your business. Improve speed and stability with Specialized Architect reviews as you scale your business with AI agents. Continually discover new ways to improve Salesforce efficiency with proactive guidance from your CSM,
+  * **Anticipate and resolve issues with highly-skilled technical experts at Salesforce** - 24/7 Proactive Monitoring, Event Management, 15-minute response times from technical support, developer code reviews for up to 5,000 lines of code.
+
+* **Customer Success Manager**: A CSM is a single point of contact and advocate, providing proactive expertise, personalized recommendations, consistent advocacy, contextual guidance and technical resources to address product and Agentforce needs,
+* **Success Path and Success Reviews**: After you complete Signature Onboarding, you work with your CSM to create a Success Path, a personalized roadmap containing business goals and objectives aligned to Salesforce product capabilities. This also includes recommendations to help you achieve these goals and KPIs to measure success. We recommend a Success Review 4x per year along your Success Path because it keeps all of us on track. We’ll get into the details on your Success Path Progress, your Customer Success Score, Proactive Monitoring Recommendations, and Technical Support Metrics. @e're assembling your business and IT stakeholders, your CSM, and the whole Signature team that's been working with you,
+* **Customer Success Score**: With CSS you can gain insights into your organization's performance, track your progres and make data-driven decisions, take action and optimize your implementation with personalized recommendations. You can learn more with this [Knowledge Article](https://help.salesforce.com/s/articleView?id=000396261&type=1).It is divided into three categories:
+
+  * **Product Adoption** - measures an organization's usage patterns and behaviors,
+  * **Customer Expertise** - tracks the knowledge and expertise your teams builds by using their success plan through things like Trailhead and certifications,
+  * **Technical Health** - health checkup for your Salesforce environment. It focuses on reliability in limits, errors and performance.
+
+* **Virtual Instructor-Led Classes**: Enable your teams to be more efficient and maximize product functionality with 1- to 5-day immersive classes that take a deep dive into product- and role-based topics. Register for any available seat in the [catalog of public classes](https://trailheadacademy.salesforce.com/all-offerings),
+* **Annual Technical Health Reviews**: Led by your CSM, an Annual Technical Health Review is a comprehensive analysis of your Signature Salesforce environment with recommendations to minimize errors and inefficiencies for a lasting, healthy solution. It’s conducted once a year to identify and mitigate issues, help you understand and improve your solution for sustained technical health, and help you plan your next steps so that you can tailor future actions along your Success Path,
+* **Specialized Architect Reviews**: Work with an in-house Salesforce architect to review, maintain, and optimize for AI and future business goals with your Salesforce platforms. There are several types of Specialized Architect Reviews. Read about two of them below:
+
+| Architecture Design Review | Reliability Review |
+|-----------------------------|--------------------|
+| **Recommendations and best practices for your top architecture design challenges** | **Ensure dependability and ability to scale with new innovations** |
+| **Vet your unique design requirements**<br>Work with a Salesforce architect to ensure optimal solution design | **Understand how to architect for efficiency and dependability**<br>Receive expert guidance on what good looks like, learn how to measure critical KPIs, and discover what you need to do to ensure your application is ready to achieve success with new innovations like Agentforce |
+| **Discover how to do it best**<br>Uncover the best ways to tackle your design challenges and minimize risks | **Minimize complexity, enhance efficiency, and mitigate risks**<br>Collaborate with a Salesforce architect to define use cases, understand your implementation’s design, and mitigate potential availability and performance risks. This proactive approach helps prevent issues before they occur, minimizes complexity, and ensures a seamless end-user experience. |
+| **Establish a foundation**<br>Get expert guidance and prescriptive recommendations from a Salesforce architect on new innovations like Agentforce | **Quickly detect and diagnose issues within your unique implementation**<br>Engage with a Salesforce architect to determine the root cause of issues. Receive a tailored remediation plan and gain knowledge on planning for performance and scale. This enables you to resolve issues effectively, thereby improving overall system performance and user experience. |
+
+* **Proactive Monitoring 24/7**: Signature provides 24/7 monitoring, sending early alerts and resolution guidance. This includes:
+
+  * Visibility to business continuity risk,
+  * Tailored and intelligent configuration and tuning,
+  * Guided improvement plans,
+  * Quarterly trend reporting.
+
+* **Key Event Management**: Provides guidance and support during your critical business periods, from technology rollouts and Salesforce releases to retail selling events (like Black Friday). There are key takeaways for succesfull events:
+
+  * **Know your business goals** and what you ant to achieve,
+  * **Prepare proactively** to meet those goals,
+  * **Optimize your systems** - make sure your systems can handle it.
+
+* **Guidance on Performance Optimization and Go-Lives**: Signature helps improve developer productivity with pre-go-live support, optimization, and troubleshooting. During technical releases and maintenance planning, CSMs work with you to:
+  * Plan for release benefits and impacts,
+  * Distill change schedules and recommendations,
+  * Give pre-production environment management best practices.
+
+  For go-lives, support engineers:
+  * Monitor and alert you if any issue is identified,
+  * Help you troubleshoot and debug issues for quicker resolutions.
+
+* **Expedited Issue Resolution**: Global, around-the-clock direct access to senior technical support engineers. It includes:
+
+  * A dedicated hotline for urgent issues,
+  * The fastest case response times for business-stopping issues,
+  * The ability to categorize business-impacting issues as Sev1,
+  * Increased engagement to deliver faster, higher-quality resolutions (high-severity issues),
+  * Preproduction support and go-live support (going above and beyond the Developer Support offered in Premier).
