@@ -113,7 +113,7 @@ After completing this unit, you’ll be able to:
 * Identify key objectives of the Signature Success Plan,
 * Identify key challenges that the Signature Success Plan solves.
 
-### Key components of the Signature Success Plan
+### Key Signature features
 
 * **Proactive, personalized partnership**: Signature includes everything in Premier and Standard, but as a Signature customer, you also get a proactive, personalized partnership with Salesforce to:
 
