@@ -9,6 +9,7 @@ Building a secure model starts with understanding your data and your users’ ne
 
 ### Four Levels of Data Access
 * **Organization**: Manage who can log in (user list, password policies, login restrictions),
+* **Objects**: By setting permissions on a particular type of object, you can prevent a group of users from creating, viewing, editing, or deleting any records of that object,
 * **Fields**: Restrict visibility or editability of sensitive fields (e.g., bonus amount, SSN) independent of object access,
 * **Records**: Fine-tune who can see or modify specific records using:
 
