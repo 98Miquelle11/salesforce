@@ -1,6 +1,6 @@
-### My current [Trailhead](https://www.salesforce.com/trailblazer/michalkuropieska) achievements:
-* 43 badges,
-* 9 completed trails.
+## My current [Trailhead](https://www.salesforce.com/trailblazer/michalkuropieska) achievements:
+* **43** badges,
+* **9** completed trails.
 
 *(Not every progress of unit, module, or trail implementation has been documented in this repository)*.
 
