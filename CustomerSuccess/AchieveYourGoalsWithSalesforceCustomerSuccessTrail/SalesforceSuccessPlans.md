@@ -8,7 +8,7 @@ After completing this unit, you’ll be able to:
 * Describe the three Success Plan offerings,
 * Explain how the Standard Success Plan helps customers excel.
 
-### Salesforce Success plans:
+### Salesforce Success Plans:
 * **Standard Success Plan** customers can set their company up for success with free always-on resources and essential support for all their needs. **It is automatically included with every Salesforce product (all licenses)**,
 * **Premier Success Plan** customers can start strong and discover new ways to get more value from Salesforce every day with personalized programs, expert guidance, and expedited support. **30% of net license fees**,
 * **Signature Success Plan** customers can clear a path for Agentforce transformation and run at peak performance with a go-to advocate, specialized programs, and the fastest support. 83% of customer inquiries are resolved by Agentforce, significantly improving self-help success. **To order it, contact your account executive**.
