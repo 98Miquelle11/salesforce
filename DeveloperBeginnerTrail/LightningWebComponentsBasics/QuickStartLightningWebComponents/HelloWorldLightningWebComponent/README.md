@@ -1,6 +1,6 @@
 ## HelloWorld Lightning Web Component
 
-### How to clone project to the Github
+### How to clone project to the Github from Visual Studio Code
 1. In the **Welcome** tab click **Clone Git Repository**,
 2. Copy Repository URL to Command Palette.
 
