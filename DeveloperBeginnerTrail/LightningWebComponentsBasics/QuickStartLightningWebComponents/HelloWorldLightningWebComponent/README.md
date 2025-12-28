@@ -1,4 +1,4 @@
-# HelloWorld Lightning Web Component
+## HelloWorld Lightning Web Component
 
 ### How to clone project to the Github
 1. In the **Welcome** tab click **Clone Git Repository**,
