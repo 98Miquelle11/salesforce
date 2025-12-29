@@ -13,7 +13,7 @@ The Lightning Web Components (capitalized) programming model is built on modern 
 * **CSS** (provides the look, feel, and animation for your component).
 Lightning Web Components uses core [Web Components](https://github.com/WICG/webcomponents) standards and provides only what's necessary to perform well in browsers supported by Salesforce. You create components with just a JavaScript file, an HTML template, and (optionally) a CSS file, and Salesforce compiles and renders them efficiently.
 
-### List the benefits of using Lightning web components
+### List the Benefits of Using Lightning Web Components
 * **High performance**: Runs using native browser APIs—lightweight and fast,
 * **Web standards aligned**: You use the same languages and patterns familiar from general web development,
 * **Developer productivity**: Easier to find solutions, reuse code, and on‑board developers with modern skills,
@@ -21,7 +21,7 @@ Lightning Web Components uses core [Web Components](https://github.com/WICG/webc
 * **Backward compatibility**: Works with existing Aura components, easing migration,
 * **Efficient tooling**: Benefits from the Salesforce CLI, VS Code extensions, Salesforce DX, scratch orgs, and playgrounds.
 
-### Find what you need to get started developing Lightning web components
+### Find What You Need to Get Started Developing Lightning web components
 To develop Lightning web components efficiently, use the following tools and environments:
 * Salesforce [DevOps Center](https://help.salesforce.com/s/articleView?id=platform.devops_center_overview.htm&type=5) provides an improved experience around change and release management that brings DevOps best practices to your development team, regardless of where you fall on the low-code to pro-code spectrum,
 * Salesforce [Code Builder](https://developer.salesforce.com/docs/platform/code-builder/guide/codebuilder-overview.html) is a web-based integrated development environment that has all the power and flexibility of Visual Studio Code, Salesforce Extensions for VS Code, and Salesforce CLI in your web browser,
