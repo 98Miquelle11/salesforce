@@ -7,8 +7,7 @@
 ## Trails
 #### Notes:
 * This README only describes which modules and units I have completed in each trail documented,
-* The documentation for each trail is contained in separate folders. When you open each folder, you will see a README file that explains my learning process in more detail,
-* The **CustomerSuccess** folder contains a collection of educational modules in this area.
+* The documentation for each trail is contained in separate folders. When you open each folder, you will see a README file that explains my learning process in more detail.
 
 ### [Admin Intermediate Trail](https://trailhead.salesforce.com/content/learn/trails/force_com_admin_intermediate)
 #### Documented modules:
